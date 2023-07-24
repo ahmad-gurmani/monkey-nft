@@ -1,0 +1,605 @@
+/* `xs` returns only a ruleset and no media query  */
+@media (max-width: 575px) {
+    .nav-link {
+        font-size: 15px;
+        line-height: 1.2;
+    }
+
+    .cont-padding {
+        padding: 0;
+    }
+
+    .logo {
+        font-size: 17px;
+        font-weight: 900;
+    }
+
+    .navbar-toggler {
+        font-size: 0.75rem;
+    }
+
+    .hero-heading {
+        font-size: 1rem;
+        line-height: 1;
+    }
+
+    .hero-main-heading {
+        font-size: 2rem;
+        line-height: 1;
+    }
+
+    .hero-paragraph {
+        font-size: 15px;
+        margin: 0;
+        padding: 3px 0 !important;
+        line-height: 1.2;
+    }
+
+    .connect-play {
+        justify-content: space-between;
+        margin-top: 10px;
+    }
+
+    .connect-play-first {
+        width: 50%;
+    }
+
+    .connect-play-btn {
+        font-size: 0.65rem;
+        line-height: 1;
+    }
+
+    .connect-play-sec {
+        font-size: 0.6rem;
+        line-height: 2;
+        justify-content: center;
+        text-align: center;
+        padding: 0 !important;
+    }
+
+    .play-button {
+        width: 40px;
+        height: auto;
+    }
+
+    .hero-monkey {
+        width: 100%;
+        left: -29px;
+        bottom: 0;
+        margin: auto;
+    }
+
+    .section-two-monkey {
+        max-width: 83%;
+        height: auto !important;
+    }
+
+    .section-two-card {
+        width: 100%;
+        left: 0px;
+        bottom: 0px;
+    }
+
+    .top-section {
+        gap: 15px !important;
+        padding-top: 20px !important;
+    }
+
+    .section-one-monky {
+        height: 235px;
+        width: 620px !important;
+    }
+
+    .card-clock-main {
+        padding: 10px !important;
+    }
+
+    .card-clock {
+        min-width: auto;
+        padding: 1px 25px !important;
+        font-size: 0.6rem;
+        border-radius: 6px;
+    }
+
+    .card-heading {
+        font-size: 0.8rem;
+        font-weight: bold;
+        line-height: 1;
+    }
+
+    .card-para {
+        font-size: 0.7rem;
+        margin: 0;
+    }
+
+    .card-channel-img {
+        width: 30px;
+        height: auto;
+    }
+
+    div>.card-channel {
+        line-height: 1;
+        font-size: 0.7rem;
+    }
+
+
+
+    .card-channel-img-two {
+        width: 40px;
+        height: auto;
+    }
+
+    .bit-coin-text {
+        font-size: 14px;
+        line-height: 1.5;
+        text-align: center;
+    }
+
+    .bit-coin-img {
+        width: 35px;
+        height: auto;
+    }
+
+    /* section two  */
+    .section-two {
+        margin: 60px auto;
+    }
+
+    .trend-cards-main {
+        margin: 59px 0 40px;
+    }
+
+    /* section 3 */
+    .treasure-paragraph {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    /* section 4 */
+    .creators {
+        margin: 57px 0px 0px;
+    }
+
+
+
+    .card-sec {
+        left: 38px !important;
+    }
+
+    .card-third {
+        left: 84px !important;
+    }
+
+    .card-five {
+        right: 85px !important;
+    }
+
+    .card-six {
+        right: 38px !important;
+    }
+
+    /* section 5  */
+    .collection-card {
+        width: 275.46px !important;
+        height: fit-content !important;
+    }
+
+    .section-five-monkey {
+        width: inherit !important;
+        /* height: auto !important; */
+    }
+
+
+    .collection-five-mail {
+        width: 539.46px !important;
+        height: auto !important;
+    }
+
+    .section-five-profile {}
+
+    .collection-five-mail-three {
+        width: 539.46px !important;
+        height: auto !important
+    }
+
+    /* section 6 */
+    .collection-mail {
+        width: 517px !important;
+        height: 277px !important;
+    }
+
+    .little-card-position {
+        top: 125px !important;
+        right: 0px !important;
+    }
+
+    .little-card-position-one-row {
+        right: 0px !important;
+    }
+
+
+    /* foter  */
+    .footer-fluid {
+        padding-top: 75px !important;
+    }
+
+    .copyright-text {
+        font-size: 14px !important;
+    }
+
+    .trending-heading {
+        font-size: 25px;
+        line-height: 1;
+
+    }
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) {
+    .navbar-toggler {
+        font-size: 1rem;
+    }
+
+    .hero-main-heading {
+        font-size: 60px;
+    }
+
+    .hero-paragraph {
+        font-size: 16px;
+    }
+
+    .hero-monkey {
+        width: 100%;
+        left: -29px;
+        bottom: 0;
+        margin: auto;
+    }
+
+    .section-two-monkey {
+        max-width: 83%;
+        height: auto !important;
+    }
+
+    .section-two-card {
+        width: 100%;
+        left: 0px;
+        bottom: 0px;
+    }
+
+    .top-section {
+        gap: 30px !important;
+        padding-bottom: 50px !important;
+    }
+
+    .section-one-card {
+        height: 483px;
+        width: 620px !important;
+    }
+
+    .card-clock {
+        height: 35px;
+        min-width: auto;
+        padding: 5px 65px !important;
+    }
+
+    .card-channel-img-two {
+        width: 40px;
+        height: auto;
+    }
+
+    .bit-coin-text {
+        font-size: 14px;
+        line-height: 1.5;
+        text-align: center;
+    }
+
+    .bit-coin-img {
+        width: 35px;
+        height: auto;
+    }
+
+    /* section two  */
+    .section-two {
+        margin: 60px auto;
+    }
+
+    .trend-cards-main {
+        margin: 59px 0 40px;
+    }
+
+    /* section 3 */
+    .treasure-paragraph {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    /* section 4 */
+    .creators {
+        margin: 57px 0px 0px;
+    }
+
+
+
+    .card-sec {
+        left: 38px !important;
+    }
+
+    .card-third {
+        left: 84px !important;
+    }
+
+    .card-five {
+        right: 85px !important;
+    }
+
+    .card-six {
+        right: 38px !important;
+    }
+
+    /* section 5  */
+    .collection-card {
+        width: 275.46px !important;
+        height: fit-content !important;
+    }
+
+    .section-five-monkey {
+        width: inherit !important;
+        /* height: auto !important; */
+    }
+
+
+    .collection-five-mail {
+        width: 539.46px !important;
+        height: auto !important;
+    }
+
+    .section-five-profile {}
+
+    .collection-five-mail-three {
+        width: 539.46px !important;
+        height: auto !important
+    }
+
+    /* section 6 */
+    .collection-mail {
+        width: 517px !important;
+        height: 277px !important;
+    }
+
+    .little-card-position {
+        top: 125px !important;
+        right: 0px !important;
+    }
+
+    .little-card-position-one-row {
+        right: 0px !important;
+    }
+
+
+    /* foter  */
+    .footer-fluid {
+        padding-top: 75px !important;
+    }
+
+    .copyright-text {
+        font-size: 14px !important;
+    }
+
+    .trending-heading {
+        font-size: 25px;
+        line-height: 1;
+
+    }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+    .hero-monkey {
+        width: 100%;
+        left: 0px;
+        bottom: 0;
+        margin: auto;
+    }
+
+    .section-two-monkey {
+        max-width: 83%;
+        height: auto !important;
+    }
+
+    .section-two-card {
+        width: 100%;
+        left: 0px;
+        bottom: 0px;
+    }
+
+    .top-section {
+        gap: 118px !important;
+        padding-bottom: 80px !important;
+    }
+
+    .section-one-card {
+        height: 575px;
+        width: 620px;
+    }
+
+    .card-clock {
+        height: 35px;
+        min-width: auto;
+        padding: 5px 65px !important;
+    }
+
+    .card-channel-img-two {
+        width: 40px;
+        height: auto;
+    }
+
+    .bit-coin-text {
+        text-align: center;
+    }
+
+    /* section 4 */
+    .card-sec {
+        left: 38px !important;
+    }
+
+    .card-third {
+        left: 84px !important;
+    }
+
+    .card-five {
+        right: 85px !important;
+    }
+
+    .card-six {
+        right: 38px !important;
+    }
+
+    /* section 5  */
+    .collection-card {
+        width: 275.46px !important;
+        height: fit-content !important;
+    }
+
+    .section-five-monkey {
+        width: inherit !important;
+        /* height: auto !important; */
+    }
+
+    .collection-five-mail {
+        width: 351.46px !important;
+        height: auto !important;
+    }
+
+    .section-six-big {}
+
+    .collection-five-mail-three {
+        width: 720.46px !important;
+        height: auto !important
+    }
+
+    /* section 6 */
+    .collection-mail {
+        width: 695px !important;
+    }
+
+    .little-card-position {
+        top: 141px !important;
+        right: 23px !important;
+    }
+
+    .little-card-position-one-row {
+        right: 0px !important;
+    }
+
+    /* foter  */
+    .footer-fluid {
+        padding-top: 75px !important;
+    }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    /* section 1 */
+    .top-section {
+        padding: 74px 0px 100px;
+    }
+
+    .hero-monkey {
+        right: -19px;
+        width: 524px;
+        height: auto;
+    }
+
+    /* section 6 */
+    .card-position {
+        width: 104% !important;
+    }
+
+    .little-card-position {
+        top: 164px !important;
+    }
+
+    /* section 4 */
+    .card-third {
+        left: 178px !important;
+    }
+
+    .card-five {
+        right: 193px !important;
+    }
+
+    /* section 6 */
+    .card-adjustment {
+        width: 850px !important;
+        height: 325px !important;
+    }
+
+    .section-five-card-two {
+        width: 120px;
+    }
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399px) {
+
+    /* section 4 */
+    .card-adjustmen-left {
+        left: 287px !important;
+    }
+
+    .card-adjustmen-right {
+        right: 295px !important;
+    }
+
+    /* section 6 */
+    .card-position {
+        width: 104% !important;
+    }
+
+    .card-adjustment {
+        width: 1050px !important;
+        height: 400px !important;
+    }
+
+    .section-five-card-two {
+        width: 120px;
+    }
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+
+    /* header */
+    .header-wraper {
+        width: 100%;
+    }
+
+    /* section 1 */
+    .hero-monkey {
+        width: 100%;
+    }
+
+    /* section 4 */
+    .card-third {
+        left: 325px !important;
+    }
+
+    .card-five {
+        right: 324px !important;
+    }
+
+    .section-five-card-two {
+        width: 120px;
+    }
+
+    /* section 6 */
+    .card-position {
+        width: 104% !important;
+    }
+
+    .card-adjustment {
+        width: 1100px !important;
+        height: 400px !important;
+    }
+}

@@ -1,0 +1,436 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&family=Paytone+One&family=Peralta&display=swap');
+
+*,
+*:after,
+*:before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:active,
+:hover,
+:focus {
+    outline: 0 !important;
+    outline-offset: 0;
+}
+
+/* ======variable declaration====== */
+:root {
+    --primary-color: #A82c48;
+    --secondry-color: #43121d;
+    --third-color: #f98169;
+    --white-color: #FFFFFF;
+    --text-color: #555;
+    --black-color: #000000;
+    --primary-font: 'Outfit', sans-serif;
+    --secondry-font: ;
+    --border-color: linear-gradient(130deg, #E025CE 22.81%, #4AED52 98.66%);
+}
+
+body {
+    font-family: var(--primary-font);
+    background: url("/assets/images/background.png") no-repeat center;
+    background-size: cover;
+}
+
+.logo {
+    font-family: 'Peralta';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19.6267px;
+    line-height: 29px;
+    background: linear-gradient(124.65deg, #E025CE 22.81%, #4AED52 98.66%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.nav-link {
+    color: var(--white-color);
+    opacity: .7;
+    transition: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0.01em;
+    opacity: 1;
+}
+
+a>.nav-link:hover {
+    color: var(--white-color);
+    transition: none;
+    opacity: 1;
+}
+
+/* 
+=====================================
+    custom Scrollbar 
+=====================================
+*/
+::-webkit-scrollbar {
+    width: 0.625rem;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #4AED52;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #E025CE;
+}
+
+/* ====== Typography ====== */
+h3 {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+h1 {
+    font-family: 'Paytone One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 68px;
+    line-height: 75px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+h1>.color-combination {
+    display: block;
+    background: linear-gradient(153deg, #E025CE 14.81%, #4AED52 90.66%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h2 {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+p {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    /* opacity: 1; */
+}
+
+.play-button {
+    width: 63px;
+    height: 63px;
+    padding: 0;
+}
+
+.connect-button {
+    background: linear-gradient(142.41deg, #BD24E6 -12.51%, #E40FAC 136.14%);
+    border: 2px solid #4AED52;
+    border-radius: 6px;
+    color: #FFFFFF;
+    outline: unset;
+    transition: none;
+}
+
+.section-one-card {
+    background: linear-gradient(138.84deg, rgba(255, 255, 255, 0.132) -6.39%, rgba(143, 143, 143, 0.063) 112.17%);
+    backdrop-filter: blur(50px);
+    border-radius: 6px;
+    z-index: 10000px;
+    border: 3px solid transparent;
+    border-image: linear-gradient(45deg, #E025CE 22.81%, #4AED52 98.66%);
+    border-image-slice: 1;
+    /* border-radius: 10px; */
+}
+
+.time-section {
+    background: linear-gradient(138.84deg, rgba(255, 255, 255, 0.201) -6.39%, rgba(255, 255, 255, 0.063) 112.17%);
+    opacity: 0.6;
+    backdrop-filter: blur(5px);
+    border-radius: 0px 0px 6px 6px;
+    z-index: 10000;
+    position: inherit;
+}
+
+.f-shadow {
+    background: linear-gradient(124.65deg, #E025CE 22.81%, #4AED52 98.66%);
+    opacity: 0.5;
+    filter: blur(130px);
+}
+
+.monkey-card-details {
+    background: linear-gradient(50.184deg, rgba(255, 255, 255, 0.0) 0.39%, rgba(255, 255, 255, 0.001) 2.17%);
+    backdrop-filter: blur(1.1px);
+    border-radius: 0px 0px 6px 6px;
+    right: 12px;
+}
+
+.top-section {
+    padding: 74px 0px 160px;
+}
+
+.hero-monkey {
+    right: -27px;
+    width: 568px;
+    height: auto;
+}
+
+.hero-paragraph {
+    opacity: .7;
+}
+
+.card-heading {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+
+    color: #FFFFFF;
+
+}
+
+.card-channel-img,
+.bit-coin-img {
+    width: 40px;
+    height: 40px;
+}
+
+div>.card-channel {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    opacity: 1;
+    color: #FFFFFF;
+}
+
+.card-para {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.down-nav {
+    background: linear-gradient(138.84deg, rgba(255, 255, 255, 0.132) -6.39%, rgba(143, 143, 143, 0.063) 112.17%);
+    backdrop-filter: blur(50px);
+
+    border: 1px solid transparent;
+    border-image: linear-gradient(45deg, #E025CE 22.81%, #4AED52 98.66%);
+    border-image-slice: 1;
+    height: 120px;
+    border-radius: 10px;
+}
+
+.bit-coin-text {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    color: #FFFFFF;
+    opacity: 0.7;
+}
+
+.container-pad {
+    padding: 0 80px;
+}
+
+/* ======section 2========  */
+.section-two {
+    margin: 100px 0;
+}
+
+.trending-heading {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 48px;
+    color: #FFFFFF;
+    text-align: center;
+    letter-spacing: 0.05em;
+}
+
+.section-two-card {
+    width: 313px;
+    height: 442px;
+    background: linear-gradient(138.34deg, rgba(154, 16, 159, 0.9) -11.36%, rgba(62, 255, 203, 0.2) 51.55%, rgba(248, 140, 248, 0.2) 113.16%);
+}
+
+.section-two-monkey {
+    bottom: 110px;
+}
+
+.section-card-details {
+    background: linear-gradient(138.84deg, rgba(255, 255, 255, 0.201) -6.39%, rgba(255, 255, 255, 0.063) 112.17%);
+    backdrop-filter: blur(3.72263px);
+    border-radius: 0px 0px 6px 6px;
+}
+
+.section-two-button {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.card-channel-img-two {
+    width: 31px;
+    height: 31%;
+}
+
+.card-channel-two {
+    font-size: 16px;
+}
+
+.card-heading-two {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.trend-cards-main {
+    margin: 127px 0 54px;
+}
+
+/* ======section 3========  */
+.monkey-treasure {
+    /* margin: 60px 0; */
+}
+
+.treasure-paragraph {
+    opacity: 0.7;
+}
+
+.treasure-cards {
+    width: 252px;
+    height: 409px;
+
+    background: linear-gradient(138.84deg, rgba(255, 255, 255, 0.132) -6.39%, rgba(255, 255, 255, 0.063) 112.17%);
+    backdrop-filter: blur(25.381px);
+    border-radius: 6px;
+
+    border: 2px solid transparent;
+    border-image: linear-gradient(118deg, #E025CE 22.81%, #4AED52 98.66%);
+    border-image-slice: 1;
+    -webkit-border-radius: 10px;
+}
+
+.treasure-cards-para {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 148.99%;
+    color: #FFFFFF;
+}
+
+.fa-regular {
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.diamond {
+    width: 17px;
+    height: 28px;
+}
+
+.price,
+.t-card-para {
+    font-size: 10px;
+    opacity: .7;
+}
+
+.b-bottom {
+    border: 1px solid transparent;
+    border-image: -webkit-linear-gradient(314deg, #E025CE 30.81%, #21222168 90.66%);
+    border-image-slice: 1;
+    -webkit-border-radius: 6px;
+}
+
+/* =====section 4======= */
+.creators {
+    margin: 96px 0px 50px;
+}
+
+.creators-card {
+    background: linear-gradient(138.84deg, rgba(255, 255, 255, 0.132) -6.39%, rgba(143, 143, 143, 0.063) 112.17%);
+    backdrop-filter: blur(50px);
+    border-radius: 10p
+}
+
+.card-img-top {
+    background: #6B5858;
+    border-radius: 6px;
+}
+
+.b-bottom-two {
+    border: 1px solid transparent;
+    border-image: -webkit-linear-gradient(180deg, #E025CE 30.81%, #4AED52 90.66%);
+    border-image-slice: 1;
+    -webkit-border-radius: 6px;
+}
+
+/* =======section 5========= */
+.collection-card {
+    background: linear-gradient(138.84deg, rgba(255, 255, 255, 0.044) -6.39%, rgba(143, 143, 143, 0.021) 112.17%);
+    backdrop-filter: blur(12.5px);
+}
+
+.collection-mail,
+.collection-five-mail,
+.collection-five-mail-three {
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) -1.52%, rgba(255, 255, 255, 0.024) 104.35%);
+    /* opacity: 0.7; */
+    backdrop-filter: blur(5px);
+    border-radius: 0px 0px 6px 6px;
+}
+
+/* section 6  */
+.little-card {
+    background: linear-gradient(138.84deg, rgba(255, 255, 255, 0.044) -6.39%, rgba(143, 143, 143, 0.021) 112.17%);
+    backdrop-filter: blur(12.5px);
+    border-radius: 6px;
+}
+
+/* section 7  */
+/* footer */
+.footer-main {
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) -1.52%, rgba(255, 255, 255, 0.024) 104.35%);
+    /* opacity: 0.7; */
+    backdrop-filter: blur(5px);
+}
+
+.copyright-text {
+    font-family: 'Outfit';
+    color: #FFFFFF;
+    opacity: 0.7;
+}
+
+.end-border {
+    border-image: -webkit-linear-gradient(258deg, #E025CE 30.81%, #21222168 90.66%);
+    border-image-slice: 1;
+}
